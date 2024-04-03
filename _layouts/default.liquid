@@ -21,6 +21,12 @@
 
     <!-- Content -->
     <div class="container mt-5" role="main">
+    <button id="light-toggle" title="Change theme">
+      <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+      <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+      <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+    </button>
+
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
