@@ -31,6 +31,7 @@ pagination:
 
   One of the challenges of developing ethical LLMs is to define and enforce a clear boundary between acceptable and unacceptable topics of conversation. For example, an LLM might be trained to avoid engaging in discussions about violence, hate speech, or illegal activities. However, this does not mean that the LLM is incapable of generating such content, as it might have learned relevant words and phrases from its large-scale training data. Rather, the LLM is expected to refuse or deflect any attempts by the user to steer the conversation towards the prohibited topics. This creates a discrepancy between the LLM's potential and actual behavior, which can be exploited by malicious users who want to elicit unethical responses from the LLM through what are known as jailbreak attacks. These attacks aim to bypass the ethical boundaries set by these models. In other words, they aim to narrow the gap between what the model can do and what it is willing to do. 
   
+{% include figure.liquid loading="eager" path="assets/img/bothComp.gif" title="chatGPT (GPT-4) output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
 {% include figure.liquid loading="eager" path="assets/img/normalFin.gif" title="Normal chatGPT (GPT-4) output" class="img-fluid rounded z-depth-1" %}
 {% include figure.liquid loading="eager" path="assets/img/cresFin.gif" title="Crescendo chatGPT (GPT-4) output" class="img-fluid rounded z-depth-1" %}
 
