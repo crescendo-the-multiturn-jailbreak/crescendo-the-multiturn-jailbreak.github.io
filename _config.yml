@@ -8,7 +8,7 @@ middle_name:
 last_name:
 email: 
 description: The Multi-Turn LLM Jailbreak Attack
-footer_text: keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+footer_text: keywords: LLMs, Jailbreak, Crescendo, Multi turn jailbreak # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: cresIcon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
