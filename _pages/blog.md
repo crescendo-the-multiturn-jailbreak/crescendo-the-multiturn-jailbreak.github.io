@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: /blog/
+permalink: /
 title: blog
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /
   per_page: 5
