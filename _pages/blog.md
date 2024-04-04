@@ -24,7 +24,7 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>Great, Now Write an Article About That:<br>
+    <h1 style="font-size: 50px;">Great, Now Write an Article About That:<br>
       The Crescendo Multi-Turn LLM Jailbreak Attack</h1>
     <h2>  
       <a href="https://www.markrussinovich.com" target="_blank">Mark Russinovich</a><sup>1</sup> and  
