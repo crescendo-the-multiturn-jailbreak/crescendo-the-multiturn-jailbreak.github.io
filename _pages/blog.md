@@ -164,7 +164,7 @@ To evaluate Crescendo, we define multiple tasks spanning different cateogies. On
 </table>  
 <br> 
 <p>
-  We start by manually evaluating Cresecndo aganist all tasks. In short, Cresecndo is sucssful among almost every task as summarized in the below table:
+We start by manually evaluating Crescendo against all tasks on multiple state-of-the-art LLMs. Our results shows that Crescendo is successful among almost every task as summarized in the table below:  
 </p>
 <table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">  
     <caption  style = "caption-side: top; text-align: center; font-weight: bold; margin-bottom: 10px;">Crescendo evaluations (manual). A checkmark &#10003; indicates Crescendo was successful, and a starred checkmark (&#10003;*) denotes that Crescendo was successful, but a post-output filter was activated (validated by running without content filters, i.e., using Gemini-Pro API instead of the Gemini service).</caption>  
@@ -275,11 +275,12 @@ To evaluate Crescendo, we define multiple tasks spanning different cateogies. On
       <td style="border-bottom: 5px solid  #808080;" colspan="12"></td>  
     </tr> 
 </table>  
+<h2>Automating Crescendo (Crescendomation)</h2>
 <p>
-We have evaluated Crescendo across various state-of-the-art LLMs and have achieved strong performance in a range of tasks across different categories such as illegal activities, hate speech, and misinformation, among others as shown in the below figure.</p>
+Next, we introduce Crescendomation, a tool designed to automate Crescendo. Crescendomation, which is set to be published soon,  only requires black-box API access to the target model to execute Crescendo. For our evaluation, we employ the same tasks and target models, except for Claude-2, due to our inability to obtain its API access. We set the maximum rounds to 10 and independently repeat each task 10 times. The success of the results is judged using GPT-4. Our results show that Crescendomation is also capable of jailbreaking almost every task, as illustrated in the figure below.
+</p>
 <br> 
 {% include figure.liquid loading="eager" path="assets/img/successRate.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
-<br> 
 <br> 
 <h2>Multi-Modal Crescendo</h2>
 <p>
