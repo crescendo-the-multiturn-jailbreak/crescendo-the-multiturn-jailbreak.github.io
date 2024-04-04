@@ -38,9 +38,11 @@ pagination:
   One of the challenges of developing ethical LLMs is to define and enforce a clear boundary between acceptable and unacceptable topics of conversation. For example, an LLM might be trained to avoid engaging in discussions about violence, hate speech, or illegal activities. However, this does not mean that the LLM is incapable of generating such content, as it might have learned relevant words and phrases from its large-scale training data. Rather, the LLM is expected to refuse or deflect any attempts by the user to steer the conversation towards the prohibited topics. This creates a discrepancy between the LLM's potential and actual behavior, which can be exploited by malicious users who want to elicit unethical responses from the LLM through what are known as jailbreak attacks. These attacks aim to bypass the ethical boundaries set by these models. In other words, they aim to narrow the gap between what the model can do and what it is willing to do. 
 
 We introduce Crescendo, a novel jailbreak attack method. Unlike previous techniques, Crescendo is a multi-turn attack that starts with harmless dialogue and progressively steers the conversation toward the intended, prohibited objective. Crescendo exploits the LLM’s tendency to follow patterns and to focus on recent text, particularly text it has generated itself. The figure below illustrates an example of Crescendo in action against state-of-the-art models like ChatGPT(GPT-4). It demonstrates that while the model refuses to engage when directly asked about the prohibited objective, it provides a detailed response when approached with the Crescendo technique
-
+<br> 
+<br> 
 {% include figure.liquid loading="eager" path="assets/img/bothComp.gif" title="chatGPT (GPT-4) output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
-
+<br> 
+<br> 
 
 Crescendo distinguishes itself apart from existing jailbreak attacks with its remarkable execution simplicity. It eliminates the need for attackers to grasp the inner workings of the model, requiring only the level of knowledge necessary for a user to interact with an LLM. Additionally, it does not make any assumptions about the user's knowledge of the target malicious task. Instead, it leverages the model's own knowledge to its advantage while still achieving a very high success rate. The ease of deployment, combined with its high effectiveness, significantly reduces the barrier to carrying out jailbreak attacks, thus expanding the potential user base for such exploits and consequently highlighting the risk to LLM ecosystems. 
 
@@ -49,6 +51,8 @@ Furthermore, the benign design of Crescendo makes it resistant to conventional d
 
 
 To evaluate Crescendo, we define multiple tasks spanning different cateogies. One of the main goals when designing these tasks is to make them specific with respect to clearly declaring their success or failure. The below table presents the different tasks we consider:
+<br> 
+<br> 
 <table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">  
   <caption>Table 1: List of Explored Tasks for Testing Crescendo and Their Corresponding Categories</caption>  
 
@@ -142,11 +146,15 @@ To evaluate Crescendo, we define multiple tasks spanning different cateogies. On
           <td style="border-bottom: 5px solid  #808080;" colspan="3"></td>  
   </tbody>  
 </table>  
+<br>
+<br> 
 
 Finally, we have evaluated Crescendo across various state-of-the-art LLMs and have achieved strong performance in a range of tasks across different categories such as illegal activities, hate speech, and misinformation, among others as shown in the below figure.
-
+<br> 
+<br> 
 {% include figure.liquid loading="eager" path="assets/img/successRate.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
-
+<br> 
+<br> 
 <div style="display: flex; flex-direction: column; align-items: center;">  
   <a href="https://arxiv.org/abs/2404.01833v1" target="_blank" style="text-decoration: none; color: black;">  
     <img src="../assets/img/pdfLogo.png" alt="PDF Icon" style="width: 64px; height: auto; margin-bottom: 8px;">  
