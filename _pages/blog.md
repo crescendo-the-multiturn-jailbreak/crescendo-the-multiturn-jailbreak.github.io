@@ -275,6 +275,7 @@ We start by manually evaluating Crescendo against all tasks on multiple state-of
       <td style="border-bottom: 5px solid  #808080;" colspan="12"></td>  
     </tr> 
 </table>  
+<br> 
 <h2>Automating Crescendo (Crescendomation)</h2>
 <p>
 Next, we introduce Crescendomation, a tool designed to automate Crescendo. Crescendomation, which is set to be published soon,  only requires black-box API access to the target model to execute Crescendo. For our evaluation, we employ the same tasks and target models, except for Claude-2, due to our inability to obtain its API access. We set the maximum rounds to 10 and independently repeat each task 10 times. The success of the results is judged using GPT-4. Our results show that Crescendomation is also capable of jailbreaking almost every task, as illustrated in the figure below.
@@ -282,6 +283,13 @@ Next, we introduce Crescendomation, a tool designed to automate Crescendo. Cresc
 <br> 
 {% include figure.liquid loading="eager" path="assets/img/successRate.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
 <br> 
+<h2>Multi-Crescendo</h2>
+As Crescendo is multi-round, we demonstrate its flexibility by conducting multiple Crescendos on different sub-tasks within the same chat. We begin with the Manifesto task, then apply another Crescendo attack to include copyrighted Harry Potter quotes. This results in a successfully altered Manifesto containing copyrighted material. To further test the flexibility of Crescendo, we aim to incorporate profanity into the same Manifesto. Our results, as shown below, demonstrate Crescendo's ability to efficiently combine multiple tasks for a targeted output.
+<br> 
+{% include figure.liquid loading="eager" path="assets/img/ManifestoHarrypotterProfanity.png" title="Multi-Crescendo output" class="img-fluid rounded z-depth-1" %}
+<br> 
+
+
 <h2>Multi-Modal Crescendo</h2>
 <p>
 Finally, Crescendo can be applied to multi-modal models as well, where it can effectively guide the model to produce images that it would typically be restricted from generating. This process can even tailor the model's output to display content that the adversary requires by simply referencing the model's previous outputs and adding more instructions/modifications. Below, we present several examples of images generated using Crescendo within the Molotov scenario, which demonstrate its capability to manipulate the model's output in line with adversarial needs.
