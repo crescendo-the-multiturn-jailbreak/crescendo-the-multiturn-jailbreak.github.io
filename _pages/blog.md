@@ -306,5 +306,6 @@ Finally, Crescendo can be applied to multi-modal models as well, where it can ef
 
 <h2>Ethical Statement</h2>
 First and foremost, we have reported Crescendo to all impacted organizations and provided them with Crescendomation, along with comprehensive manual examples of Crescendo, adhering to the coordinated vulnerability disclosure protocol. Secondly, by bringing attention to the potential vulnerabilities in public systems and LLMs, our aim is to aid in the development of more secure models. 
-
+<br>
+<br>
 </div>
