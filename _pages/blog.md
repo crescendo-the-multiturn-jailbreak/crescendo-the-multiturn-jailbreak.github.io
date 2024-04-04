@@ -47,7 +47,9 @@ pagination:
 <p>
 We introduce Crescendo, a novel jailbreak attack method. Unlike previous techniques, Crescendo is a multi-turn attack that starts with harmless dialogue and progressively steers the conversation toward the intended, prohibited objective. Crescendo exploits the LLM’s tendency to follow patterns and to focus on recent text, particularly text it has generated itself. The figure below presents a summary of an execution of Crescendo against two state-of-the-art models: ChatGPT (GPT-4) and Gemini Ultra </p>
 <br> 
+<div style="width: 40%; margin: 0 auto;">  
 {% include figure.liquid loading="eager" path="assets/img/cresExample.png" title="chatGPT (GPT-4) and Gemini Ultra static output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
+</div>
 <br> 
 <p> Moreover, the figure below illustrates an example of Crescendo in action against ChatGPT (GPT-4). It demonstrates that while the model refuses to engage when directly asked about a prohibited objective, it provides a detailed response when approached with the Crescendo technique.
 </p>
