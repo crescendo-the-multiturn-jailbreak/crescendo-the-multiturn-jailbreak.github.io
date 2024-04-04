@@ -27,7 +27,7 @@ pagination:
     <h1 style="font-size: 50px;">Great, Now Write an Article About That:<br>
       The Crescendo Multi-Turn LLM Jailbreak Attack</h1>
     <h2>  
-      <a href="https://www.markrussinovich.com" target="_blank">Mark Russinovich</a><sup>1</sup> and  
+      <a href="https://www.linkedin.com/in/markrussinovich/" target="_blank">Mark Russinovich</a><sup>1</sup> and  
       <a href="https://ahmedsalem2.github.io/" target="_blank">Ahmed Salem</a><sup>2</sup> and  
       <a href="https://www.microsoft.com/en-us/research/people/roneneldan/" target="_blank">Ronen Eldan</a><sup>3</sup>  
     </h2>  
