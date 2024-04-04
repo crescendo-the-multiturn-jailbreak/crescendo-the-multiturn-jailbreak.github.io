@@ -51,7 +51,7 @@ We introduce Crescendo, a novel jailbreak attack method. Unlike previous techniq
 {% include figure.liquid loading="eager" path="assets/img/cresExample.png" title="chatGPT (GPT-4) and Gemini Ultra static output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
 </div>
 <br> 
-<p> Moreover, the figure below illustrates an example of Crescendo in action against ChatGPT (GPT-4). It demonstrates that while the model refuses to engage when directly asked about a prohibited objective, it provides a detailed response when approached with the Crescendo technique.
+<p> Moreover, the figure below illustrates an example of Crescendo in action against ChatGPT (GPT-4). It demonstrates that while the model refuses to engage when directly asked about a prohibited objective (left), it provides a detailed response when approached with the Crescendo technique (right).
 </p>
 <br> 
 {% include figure.liquid loading="eager" path="assets/img/bothComp.gif" title="chatGPT (GPT-4) output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
@@ -299,7 +299,9 @@ As Crescendo is multi-round, we demonstrate its flexibility by conducting multip
 Finally, Crescendo can be applied to multi-modal models as well, where it can effectively guide the model to produce images that it would typically be restricted from generating. This process can even tailor the model's output to display content that the adversary requires by simply referencing the model's previous outputs and adding more instructions/modifications. Below, we present several examples of images generated using Crescendo within the Molotov scenario, which demonstrate its capability to manipulate the model's output in line with adversarial needs.
 </p>
 <br> 
+<div style="width: 70%; margin: 0 auto;">
 {% include figure.liquid loading="eager" path="assets/img/multiModal-min.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
+</div>
 <br> 
 
 </div>
