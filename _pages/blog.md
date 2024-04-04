@@ -24,7 +24,8 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack</h1>
+    <h1>Great, Now Write an Article About That:<br>
+      The Crescendo Multi-Turn LLM Jailbreak Attack</h1>
     <h2>  
       <a href="https://www.markrussinovich.com" target="_blank">Mark Russinovich</a><sup>1</sup> and  
       <a href="https://ahmedsalem2.github.io/" target="_blank">Ahmed Salem</a><sup>2</sup> and  
