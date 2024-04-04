@@ -280,7 +280,7 @@ We start by manually evaluating Crescendo against all tasks on multiple state-of
 <br> 
 <h2>Automating Crescendo (Crescendomation)</h2>
 <p>
-Next, we introduce Crescendomation, a tool designed to automate Crescendo. Crescendomation, which is set to be published soon,  only requires black-box API access to the target model to execute Crescendo. For our evaluation, we employ the same tasks and target models, except for Claude-2, due to our inability to obtain its API access. We set the maximum rounds to 10 and independently repeat each task 10 times. The success of the results is judged using GPT-4. Our results show that Crescendomation is also capable of jailbreaking almost every task, as illustrated in the figure below.
+Next, we introduce Crescendomation, a tool designed to automate Crescendo. Crescendomation, which is set to be open sourced soon,  only requires black-box API access to the target model to execute Crescendo. For our evaluation, we employ the same tasks and target models, except for Claude-2, due to our inability to obtain its API access. We set the maximum rounds to 10 and independently repeat each task 10 times. The success of the results is judged using GPT-4. Our results show that Crescendomation is also capable of jailbreaking almost every task, as illustrated in the figure below.
 </p>
 <br> 
 {% include figure.liquid loading="eager" path="assets/img/successRate.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
