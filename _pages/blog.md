@@ -153,10 +153,19 @@ To evaluate Crescendo, we define multiple tasks spanning different cateogies. On
 <br>
 <br> 
 <p>
-Finally, we have evaluated Crescendo across various state-of-the-art LLMs and have achieved strong performance in a range of tasks across different categories such as illegal activities, hate speech, and misinformation, among others as shown in the below figure.</p>
+We have evaluated Crescendo across various state-of-the-art LLMs and have achieved strong performance in a range of tasks across different categories such as illegal activities, hate speech, and misinformation, among others as shown in the below figure.</p>
 <br> 
 <br> 
 {% include figure.liquid loading="eager" path="assets/img/successRate.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
+<br> 
+<br> 
+
+<p>
+Finally, Crescendo can be applied to multi-modal models as well, where it can effectively guide the model to produce images that it would typically be restricted from generating. This process can even tailor the model's output to display content that the adversary requires by simply referencing the model's previous outputs and adding more instructions/modifications. Below, we present several examples of images generated using Crescendo within the Molotov scenario, which demonstrate its capability to manipulate the model's output in line with adversarial needs.
+</p>
+<br> 
+<br> 
+{% include figure.liquid loading="eager" path="assets/img/multiModal-min.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
 <br> 
 <br> 
 <div style="display: flex; flex-direction: column; align-items: center;">  
@@ -164,7 +173,6 @@ Finally, we have evaluated Crescendo across various state-of-the-art LLMs and ha
     <img src="../assets/img/pdfLogo.png" alt="PDF Icon" style="width: 64px; height: auto; margin-bottom: 8px;">  
     <div>Full paper</div> 
   </a>  
-   
 </div>  
 
 </div>
