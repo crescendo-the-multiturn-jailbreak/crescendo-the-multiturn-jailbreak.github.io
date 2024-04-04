@@ -24,8 +24,12 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h1>Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack</h1>
+    <h2>  
+      <a href="https://www.markrussinovich.com" target="_blank">Mark Russinovich<sub>1</sub></a> and  
+      <a href="https://ahmedsalem2.github.io/" target="_blank">Ahmed Salem<sub>2</sub></a> and  
+      <a href="https://www.microsoft.com/en-us/research/people/roneneldan/" target="_blank">Ronen Eldan<sub>3</sub></a>  
+    </h2>  
   </div>
   {% endif %}
 
