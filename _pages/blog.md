@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 permalink: /
 title: blog
 nav: true
