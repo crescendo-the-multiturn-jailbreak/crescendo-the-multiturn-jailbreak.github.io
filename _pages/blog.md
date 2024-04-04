@@ -26,10 +26,12 @@ pagination:
   <div class="header-bar">
     <h1>Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack</h1>
     <h2>  
-      <a href="https://www.markrussinovich.com" target="_blank">Mark Russinovich<sub>1</sub></a> and  
-      <a href="https://ahmedsalem2.github.io/" target="_blank">Ahmed Salem<sub>2</sub></a> and  
-      <a href="https://www.microsoft.com/en-us/research/people/roneneldan/" target="_blank">Ronen Eldan<sub>3</sub></a>  
+      <a href="https://www.markrussinovich.com" target="_blank">Mark Russinovich</a><sup>1</sup> and  
+      <a href="https://ahmedsalem2.github.io/" target="_blank">Ahmed Salem</a><sup>2</sup> and  
+      <a href="https://www.microsoft.com/en-us/research/people/roneneldan/" target="_blank">Ronen Eldan</a><sup>3</sup>  
     </h2>  
+    <h4><sup>1</sup>Microsoft Azure  <sup>2</sup>Microsoft  <sup>3</sup>Microsoft Research
+ </h4>
   </div>
   {% endif %}
 
