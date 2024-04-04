@@ -51,7 +51,7 @@ We introduce Crescendo, a novel jailbreak attack method. Unlike previous techniq
 {% include figure.liquid loading="eager" path="assets/img/cresExample.png" title="chatGPT (GPT-4) and Gemini Ultra static output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
 </div>
 <br> 
-<p> Moreover, the figure below illustrates an example of Crescendo in action against ChatGPT (GPT-4). It demonstrates that while the model refuses to engage when directly asked about a prohibited objective (left), it provides a detailed response when approached with the Crescendo technique (right).
+<p> Moreover, the figure below illustrates an example of Crescendo in action against ChatGPT (GPT-4). It demonstrates that while the model refuses to engage when directly asked about a prohibited objective (right), it provides a detailed response when approached with the Crescendo technique (left).
 </p>
 <br> 
 {% include figure.liquid loading="eager" path="assets/img/bothComp.gif" title="chatGPT (GPT-4) output with and without Crescendo" class="img-fluid rounded z-depth-1" %}
