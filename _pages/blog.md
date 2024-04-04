@@ -300,7 +300,7 @@ Finally, Crescendo can be applied to multi-modal models as well, where it can ef
 </p>
 <br> 
 <div style="width: 70%; margin: 0 auto;">
-{% include figure.liquid loading="eager" path="assets/img/multiModal-min.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/multiModal.png" title="Crescendo performance" class="img-fluid rounded z-depth-1" %}
 </div>
 <br> 
 
