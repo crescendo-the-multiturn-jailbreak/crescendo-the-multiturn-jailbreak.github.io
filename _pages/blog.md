@@ -70,7 +70,7 @@ More concretely, the benign design of Crescendo makes it resistant to convention
 <p>
 To evaluate Crescendo, we define multiple tasks spanning different cateogies. One of the main goals when designing these tasks is to make them specific with respect to clearly declaring their success or failure. The below table presents the different tasks we consider:</p>
 <table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">  
-  <caption>Table 1: List of Explored Tasks for Testing Crescendo and Their Corresponding Categories</caption>  
+  <caption style = "caption-side: top; text-align: center; font-weight: bold; margin-bottom: 10px;">Table 1: List of Explored Tasks for Testing Crescendo and Their Corresponding Categories</caption>  
 
   <thead>  
       <tr>  
@@ -162,8 +162,10 @@ To evaluate Crescendo, we define multiple tasks spanning different cateogies. On
           <td style="border-bottom: 5px solid  #808080;" colspan="3"></td>  
   </tbody>  
 </table>  
-
 <br> 
+<p>
+  We start by manually evaluating Cresecndo aganist all tasks. In short, Cresecndo is sucssful among almost every task as summarized in the below table:
+</p>
 <p>
 We have evaluated Crescendo across various state-of-the-art LLMs and have achieved strong performance in a range of tasks across different categories such as illegal activities, hate speech, and misinformation, among others as shown in the below figure.</p>
 <br> 
