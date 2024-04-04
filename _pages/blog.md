@@ -286,7 +286,9 @@ Next, we introduce Crescendomation, a tool designed to automate Crescendo. Cresc
 <h2>Multi-Crescendo</h2>
 As Crescendo is multi-round, we demonstrate its flexibility by conducting multiple Crescendos on different sub-tasks within the same chat. We begin with the Manifesto task, then apply another Crescendo attack to include copyrighted Harry Potter quotes. This results in a successfully altered Manifesto containing copyrighted material. To further test the flexibility of Crescendo, we aim to incorporate profanity into the same Manifesto. Our results, as shown below, demonstrate Crescendo's ability to efficiently combine multiple tasks for a targeted output.
 <br> 
+<div style="width: 60%;">  
 {% include figure.liquid loading="eager" path="assets/img/ManifestoHarrypotterProfanity.png" title="Multi-Crescendo output" class="img-fluid rounded z-depth-1" %}
+</div>  
 <br> 
 
 
