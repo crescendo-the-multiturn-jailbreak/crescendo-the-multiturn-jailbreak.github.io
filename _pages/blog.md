@@ -35,7 +35,7 @@ pagination:
  </h4>
   </div>
   <div style="display: flex; flex-direction: column; align-items: center;">  
-  <a href="https://arxiv.org/abs/2404.01833v1" target="_blank" style="text-decoration: none; color: black;">  
+  <a href="../assets/pdf/CrescendoFullPaper.pdf" target="_blank" style="text-decoration: none; color: black;">  
     <img src="../assets/img/pdfLogo.png" alt="PDF Icon" style="width: 64px; height: auto; margin-bottom: 8px;">  
     <div>Full paper</div> 
   </a>  
